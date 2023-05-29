@@ -186,7 +186,8 @@
       <link>http://scottviteri.github.io/teaching/courses/fundamentals/</link>
       <pubDate>Wed, 15 Jun 2022 00:00:00 +0000</pubDate>
       <guid>http://scottviteri.github.io/teaching/courses/fundamentals/</guid>
-      <description>&lt;h2 id=&#34;course-information&#34;&gt;Course Information&lt;/h2&gt;
+      <description>&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.min.js&#34;&gt;&lt;/script&gt;
+&lt;h2 id=&#34;course-information&#34;&gt;Course Information&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Course Organizer&lt;/em&gt;: Richard Ngo&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Content&lt;/em&gt;: The AGI Safety Fundamentals: Alignment Course provides a high-level understanding of the AI alignment problem and some of the key research directions which aim to solve it. The course consists of 7 weeks of readings and discussion sessions (plus one optional week introducing the fundamentals of machine learning), and a final project. No background machine learning knowledge is required, but participants are expected to have some fluency in basic statistics and mathematical notation.&lt;/li&gt;
