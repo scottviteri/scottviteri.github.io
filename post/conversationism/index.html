@@ -627,8 +627,13 @@ Intro There seems to be a stark contrast between my alignment research on ontolo
       <p>Crossposted at 
 <a href="https://www.lesswrong.com/posts/HpHyERTmsmhDiRHtY/conversationism" target="_blank" rel="noopener">https://www.lesswrong.com/posts/HpHyERTmsmhDiRHtY/conversationism</a>.</p>
 <h2 id="intro">Intro</h2>
-<p>There seems to be a stark contrast between my alignment research on ontology maps and on cyborgism via Neuralink. I claim that the path has consisted of a series of forced moves, and that my approach to the second follows from my conclusions about the first. This post is an attempt to document those forced moves, in the hope that others do not have to duplicate my work.</p>
-<p>Ontology maps are about finding shape semantic-preserving functions between the internal states of agents. Each commutative diagram denotes a particular way of training neural networks to act as conceptual bridges between a human and AI. I originally started playing with these diagrams as a way of addressing the Eliciting Latent Knowledge problem. Erik Jenner has been thinking about similar objects here and here.</p>
+<p>There seems to be a stark contrast between my alignment research on 
+<a href="https://www.lesswrong.com/posts/C5PZNi5fueH2RC6aF/repl-s-and-elk" target="_blank" rel="noopener">ontology maps</a> and on 
+<a href="https://www.lesswrong.com/posts/FnfAnsAH6dva3kCHS/research-direction-be-the-agi-you-want-to-see-in-the-world" target="_blank" rel="noopener">cyborgism via Neuralink</a>. I claim that the path has consisted of a series of forced moves, and that my approach to the second follows from my conclusions about the first. This post is an attempt to document those forced moves, in the hope that others do not have to duplicate my work.</p>
+<p>Ontology maps are about finding shape semantic-preserving functions between the internal states of agents. Each commutative diagram denotes a particular way of training neural networks to act as conceptual bridges between a human and AI. I originally started playing with these diagrams as a way of addressing the 
+<a href="https://www.lesswrong.com/posts/qHCDysDnvhteW7kRd/arc-s-first-technical-report-eliciting-latent-knowledge" target="_blank" rel="noopener">Eliciting Latent Knowledge</a> problem. Erik Jenner has been thinking about similar objects 
+<a href="https://www.lesswrong.com/posts/nLhHY2c8MWFcuWRLx/good-ontologies-induce-commutative-diagrams" target="_blank" rel="noopener">here</a> and 
+<a href="https://www.lesswrong.com/posts/L8LHBTMvhLDpxDaqv/research-agenda-formalizing-abstractions-of-computations-1" target="_blank" rel="noopener">here</a>.</p>
 <p>Cyborgism via Neuralink is about using a brain-computer interface to read neural activation and write those predictions back to the brain, in the hope that neuroplasticity will allow you to harness the extra compute. The goal is to train an artificial neural network with a particularly human inductive bias. Given severe bandwidth constraints (currently three thousand read/write electrodes), the main reason to think this might work is that the brain and the transistor-based brain predictor are being jointly trained &ndash; the brain can learn to send inputs to the predictor such that the predictions are useful for some downstream task. In other words, both the brain and the neural prosthesis are trained online. Think of predicting the activations of a fixed neural network given time series data (hard) versus the same task, but you pass gradients with respect to the base neural network&rsquo;s final loss through the bandwidth bottleneck into the predictor (less hard).</p>
 <p>In the section &ldquo;An Alternative Form of Feedback&rdquo;, I introduce a vision of alignment that takes communication bandwidth as fundamental, and I sketch out how one might amplify human feedback on AI via conversation. I might recommend reading that section more than the &ldquo;TLDR &ndash; My Conceptual Path&rdquo; section.</p>
 <h2 id="tldr----my-conceptual-path">TLDR &ndash; My Conceptual Path</h2>
@@ -684,7 +689,8 @@ Intro There seems to be a stark contrast between my alignment research on ontolo
 <p>This whole story has essentially been about how to increase the bandwidth between agents, and the answer is something like mutual prediction. Each agent is learning how to write and read to the other agent in order to speed up / parallelize their own computation. These thoughts about commutative diagrams are how I prefer to design the software for Neuralink.</p>
 <p>But using only a single &ldquo;F&rdquo;, &ldquo;G&rdquo; pair for Neuralink seems lopsided and asymmetric. For example, I wanted to train a &ldquo;predictor&rdquo; neural network to predict a &ldquo;base&rdquo; neural network&rsquo;s activations. I would do this by training the &ldquo;base&rdquo; neural network, and letting gradients propagate back into the &ldquo;predictor&rdquo; network. I would prefer if it was that the AI and the human in the loop both had something to gain from the conversation, and learned to call each other as API&rsquo;s when they desired.</p>
 <h2 id="an-alternative-kind-of-feedback">An Alternative Kind of Feedback</h2>
-<p>Recently, I have been internally debating on whether to label my recent thoughts as a particular flavor of cyborgism, using Conjecture&rsquo;s terminology. I have come to feel that there is an important distinction I want to make reflecting the bidirectional nature of conversation.</p>
+<p>Recently, I have been internally debating on whether to label my recent thoughts as a particular flavor of 
+<a href="https://www.lesswrong.com/posts/bxt7uCiHam4QXrQAA/cyborgism" target="_blank" rel="noopener">cyborgism</a>, using Conjecture&rsquo;s terminology. I have come to feel that there is an important distinction I want to make reflecting the bidirectional nature of conversation.</p>
 <p>I will sketch a different way to align an AGI than RLHF or conditional pre-training to give a sense of my aesthetic. Raising a child via a yes/no reward signal would be very low bandwidth, not to mention unkind. Instead I could imagine starting with a toddler GPT-J, and training it via minimizing prediction error on conversation with a select set of parents. As it gets older, it can ask to read parts of the internet or chat with particular people from a wider set of less vetted parents. When it reaches school age, it can be trained via conversations with similarly competent language models. This process can potentially be sped up by learning particular F and G&rsquo;s to speak directly into each other&rsquo;s latent spaces. At this point it is competent enough to be useful to a broad group of people, who can pay to talk to it. It can use some of that money to pay to talk to particular people and language models, at which point it is a functioning member of society.</p>
 <p>The most obvious way that this can go wrong is if the initial high-bandwith parenting via conversation is too expensive. So we could fine-tune GPT on high quality parenting scripts. This GPT-Nanny already seems like a better (higher bandwith) version of feedback than reward modeling of human annotators in RLHF. The role of alignment reaserchers would to push back the pareto-frontier of cost versus annotation quality.</p>
 <p>I would like to call this style of approach conversationism, where we especially highlight the creation of a bidirectional relationship and cultural integration of AI. I know the reader is thinking it is naive think that the best way to build a nice AI is to treat it nicely, but I am having trouble imagining any other way. I have more thoughts on the philosophy of this approach, but that will have to wait for another post.</p>
@@ -693,7 +699,12 @@ Intro There seems to be a stark contrast between my alignment research on ontolo
 <p>The most obvious related work is Erik Jenner&rsquo;s here and here, linked again for convenience.</p>
 <p><img src="https://res.cloudinary.com/lesswrong-2-0/image/upload/v1677538005/mirroredImages/HpHyERTmsmhDiRHtY/aim9tecgxxztpuujntq0.png" alt=""></p>
 <p>He uses the abstraction diagram from the machine&rsquo;s state into S, which I am thinking of a general human interpretation language. He also is trying to discover TS jointly with F, if I understand correctly. I labelled the bottom states S to denote a common language between humans (SH for many different values of H). I am thinking more about the prediction ontology map, because I am especially interested in interpretability that works in both directions. I would like to know how to compose individual agents into a super-agent via conversation and communication.</p>
-<p>The abstraction ontology map is like viewing one agent&rsquo;s state as an abstraction of another agent&rsquo;s state, and various choices of abstraction are discussed in Towards a Unified Theory of State Abstraction for MDPs. This looks similar to bisimulation of labelled transition systems, as well as another that looks like Probabilistic Bisimulation. Other related works include Causal Distillation for Language Models, Approximate Causal Abstractions, and Causal Abstractions of Neural Networks.</p>
+<p>The abstraction ontology map is like viewing one agent&rsquo;s state as an abstraction of another agent&rsquo;s state, and various choices of abstraction are discussed in 
+<a href="http://rbr.cs.umass.edu/aimath06/proceedings/P21.pdf" target="_blank" rel="noopener">Towards a Unified Theory of State Abstraction for MDPs</a>. This looks similar to bisimulation of labelled transition systems, as well as another that looks like 
+<a href="https://dl.acm.org/doi/abs/10.1145/2815493.2815501" target="_blank" rel="noopener">Probabilistic Bisimulation</a>. Other related works include 
+<a href="https://aclanthology.org/2022.naacl-main.318/" target="_blank" rel="noopener">Causal Distillation for Language Models</a>, 
+<a href="http://proceedings.mlr.press/v115/beckers20a.html" target="_blank" rel="noopener">Approximate Causal Abstractions</a>, and 
+<a href="https://arxiv.org/abs/2106.02997" target="_blank" rel="noopener">Causal Abstractions of Neural Networks</a>.</p>
 <h2 id="some-light-category-theory">Some Light Category Theory</h2>
 <p>The prediction diagrams form a category:</p>
 <ul>
@@ -701,21 +712,32 @@ Intro There seems to be a stark contrast between my alignment research on ontolo
 <li>The morphisms between objects ⟨S,T:S→S⟩ and ⟨U,V:U→U⟩ are pairs ⟨F:S→U,G:U→S⟩ such that T=F;V;G</li>
 <li>The morphisms are indeed transitive and associative. There are identity morphisms for each object.</li>
 </ul>
-<p>The objects are dynamical systems, and I am thinking of an agents as a special kind of dynamical system. The morphisms are choices of read-eval-print loops in the sense of my repl post. It is interesting that this representation allows a single agent to have multiple different ways of interacting with the world. A morphism from A to B semantically means that agent B predicts agent A, or that agent A uses agent B.</p>
+<p>The objects are dynamical systems, and I am thinking of an agents as a special kind of dynamical system. The morphisms are choices of read-eval-print loops in the sense of 
+<a href="https://www.lesswrong.com/posts/kN2cFPaLQhExEzgeZ/repl-s-a-type-signature-for-agents" target="_blank" rel="noopener">my repl post</a>. It is interesting that this representation allows a single agent to have multiple different ways of interacting with the world. A morphism from A to B semantically means that agent B predicts agent A, or that agent A uses agent B.</p>
 <p>Also, if we allow the distinct domains and co-domain in the transition function, then the abstraction diagram category is called the arrow category. And the prediction diagram category is called the twisted arrow category.</p>
-<p>A two-sided conversation would correspond to a pair of morphism back and forth between two objects in the twisted arrow category. But having such a pair of morphisms is a very strong condition. So going forward we may want to formalize two agents as communicating in some shared part of their ontologies. I have some thoughts in this direction thanks to @davidad.</p>
+<p>A two-sided conversation would correspond to a pair of morphism back and forth between two objects in the twisted arrow category. But having such a pair of morphisms is a very strong condition. So going forward we may want to formalize two agents as communicating in some shared part of their ontologies. I have some thoughts in this direction thanks to 
+<a href="https://www.lesswrong.com/users/davidad?mention=user" target="_blank" rel="noopener">@davidad</a>.</p>
 <h2 id="thanks">Thanks</h2>
 <p>A very incomplete list of thanks:</p>
 <ul>
-<li>@Victor Lecomte  &ndash; for pushing me away from the single F story, and back to the F and G story</li>
-<li>@sudo -i   &ndash; for proof-reading and bouncing these ideas back and forth with me</li>
-<li>@davidad &ndash; for telling me names of the categories I have been poking at, and for providing a direction for future theoretical (and hopefully empirical) work</li>
-<li>@Victor Warlop &ndash; mentioned to me the idea of thinking of current AI&rsquo;s as children</li>
-<li>@Erik Jenner  &ndash; for suggesting that particular category (in the math sense) of the diagram doesn&rsquo;t matter</li>
-<li>@MalcolmOcean  &ndash; sketched a view of opening up the AI to interaction with the world via REPLit, and commiserated with me about using an impoverished yes/no training signal</li>
-<li>@Samuel Chen  &ndash; helped me brainstorm names for the aesthetic I want to cultivate in the alignment community. Pointed out that the limit of high bandwidth communication will create a symbiorganism.</li>
-<li>@Vivek Hebbar  &ndash; for conversations about whether F and G should be inverses, and suggestions about some probabilistic state space content</li>
-<li>@Aryan Bhattarai  &ndash; Gave the idea of linear F and G.</li>
+<li>
+<a href="https://www.lesswrong.com/users/victor-lecomte?mention=user" target="_blank" rel="noopener">@Victor Lecomte</a>  &ndash; for pushing me away from the single F story, and back to the F and G story</li>
+<li>
+<a href="https://www.lesswrong.com/users/sudo?mention=user" target="_blank" rel="noopener">@sudo -i</a>   &ndash; for proof-reading and bouncing these ideas back and forth with me</li>
+<li>
+<a href="https://www.lesswrong.com/users/davidad?mention=user" target="_blank" rel="noopener">@davidad</a> &ndash; for telling me names of the categories I have been poking at, and for providing a direction for future theoretical (and hopefully empirical) work</li>
+<li>
+<a href="https://www.lesswrong.com/users/victor-warlop?mention=user" target="_blank" rel="noopener">@Victor Warlop</a> &ndash; mentioned to me the idea of thinking of current AI&rsquo;s as children</li>
+<li>
+<a href="https://www.lesswrong.com/users/erik-jenner?mention=user" target="_blank" rel="noopener">@Erik Jenner</a>  &ndash; for suggesting that particular category (in the math sense) of the diagram doesn&rsquo;t matter</li>
+<li>
+<a href="https://www.lesswrong.com/users/malcolmocean?mention=user" target="_blank" rel="noopener">@MalcolmOcean</a>  &ndash; sketched a view of opening up the AI to interaction with the world via REPLit, and commiserated with me about using an impoverished yes/no training signal</li>
+<li>
+<a href="https://www.lesswrong.com/users/samuel-chen?mention=user" target="_blank" rel="noopener">@Samuel Chen</a>  &ndash; helped me brainstorm names for the aesthetic I want to cultivate in the alignment community. Pointed out that the limit of high bandwidth communication will create a symbiorganism.</li>
+<li>
+<a href="https://www.lesswrong.com/users/vivek-1?mention=user" target="_blank" rel="noopener">@Vivek Hebbar</a>  &ndash; for conversations about whether F and G should be inverses, and suggestions about some probabilistic state space content</li>
+<li>
+<a href="https://www.lesswrong.com/users/aryan-bhattarai?mention=user" target="_blank" rel="noopener">@Aryan Bhattarai</a>  &ndash; Gave the idea of linear F and G.</li>
 </ul>
 
     </div>
