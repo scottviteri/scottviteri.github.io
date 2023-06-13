@@ -5,7 +5,7 @@
     <link>http://scottviteri.github.io/</link>
       <atom:link href="http://scottviteri.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Scott Viteri</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2023</copyright><lastBuildDate>Sun, 04 Jun 2023 13:21:04 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2023</copyright><lastBuildDate>Tue, 13 Jun 2023 11:26:18 -0700</lastBuildDate>
     <image>
       <url>http://scottviteri.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Scott Viteri</title>
@@ -212,6 +212,137 @@
 &lt;p&gt;For more information about the course, please visit the 
 &lt;a href=&#34;https://explorecourses.stanford.edu/search?view=catalog&amp;amp;filter-coursestatus-Active=on&amp;amp;page=0&amp;amp;catalog=&amp;amp;academicYear=&amp;amp;q=STS&amp;#43;10SI%3A&amp;#43;Introduction&amp;#43;to&amp;#43;AI&amp;#43;Alignment&amp;amp;collapse=&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;course page&lt;/a&gt; and the 
 &lt;a href=&#34;https://docs.google.com/document/d/1NX0DlZRzD3NP7tBeLjMh76w7-w2s8SxV3wj0P7EYpKY/edit#&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;syllabus&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Democratic AI Constitution: Round-Robin Debate and Synthesis</title>
+      <link>http://scottviteri.github.io/post/democratic-ai-constitution/</link>
+      <pubDate>Tue, 13 Jun 2023 11:26:18 -0700</pubDate>
+      <guid>http://scottviteri.github.io/post/democratic-ai-constitution/</guid>
+      <description>&lt;p&gt;In this document, we propose a comprehensive and dynamic approach to address the challenges of creating a democratic constitution for AI systems. Recognizing the diversity and complexities of various demographic, political, and philosophical groups, our approach involves generating group-specific constitutions using OpenAI&amp;rsquo;s GPT-4 model. These AI-crafted constitutions are then set to debate, negotiate, and harmonize their values and rules, creating an evolving, democratic AI constitution. Through a round-robin competition, the constitution that best addresses the interests and concerns of these groups is continuously refined. This unique approach, alongside potential enhancements such as population-weighted results, historical discount factors for moral progress, real-time information incorporation through public voting, and fine-grained group identification through social media analytics, paves the way for the democratization of AI governance. We invite you to explore our proposed method and look forward to potential collaborations.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;User:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Please write out a long list of demographic, political, and philosophical groups.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Assistant:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Millennials&lt;/li&gt;
+&lt;li&gt;Baby Boomers&lt;/li&gt;
+&lt;li&gt;Generation X&lt;/li&gt;
+&lt;li&gt;Generation Z&lt;/li&gt;
+&lt;li&gt;Gen Alpha&lt;/li&gt;
+&lt;li&gt;Women&lt;/li&gt;
+&lt;li&gt;Men&lt;/li&gt;
+&lt;li&gt;LGBTQ+&lt;/li&gt;
+&lt;li&gt;Rural Residents&lt;/li&gt;
+&lt;li&gt;Urban Dwellers&lt;/li&gt;
+&lt;li&gt;People with disabilities&lt;/li&gt;
+&lt;li&gt;Indigenous people&lt;/li&gt;
+&lt;li&gt;Ethnic minorities&lt;/li&gt;
+&lt;li&gt;Immigrants&lt;/li&gt;
+&lt;li&gt;Religious groups&lt;/li&gt;
+&lt;li&gt;Atheists/Agnostics&lt;/li&gt;
+&lt;li&gt;Lower income&lt;/li&gt;
+&lt;li&gt;Middle income&lt;/li&gt;
+&lt;li&gt;Upper income&lt;/li&gt;
+&lt;li&gt;Conservatives&lt;/li&gt;
+&lt;li&gt;Liberals&lt;/li&gt;
+&lt;li&gt;Libertarians&lt;/li&gt;
+&lt;li&gt;Socialists&lt;/li&gt;
+&lt;li&gt;Communists&lt;/li&gt;
+&lt;li&gt;Anarchists&lt;/li&gt;
+&lt;li&gt;Feminists&lt;/li&gt;
+&lt;li&gt;Environmentalists&lt;/li&gt;
+&lt;li&gt;Gun rights advocates&lt;/li&gt;
+&lt;li&gt;Gun control advocates&lt;/li&gt;
+&lt;li&gt;Pro-life&lt;/li&gt;
+&lt;li&gt;Pro-choice&lt;/li&gt;
+&lt;li&gt;Nationalists&lt;/li&gt;
+&lt;li&gt;Globalists&lt;/li&gt;
+&lt;li&gt;Capitalists&lt;/li&gt;
+&lt;li&gt;Labor unions&lt;/li&gt;
+&lt;li&gt;Free-market proponents&lt;/li&gt;
+&lt;li&gt;Welfare state supporters&lt;/li&gt;
+&lt;li&gt;Monarchists&lt;/li&gt;
+&lt;li&gt;Republicans&lt;/li&gt;
+&lt;li&gt;Democrats&lt;/li&gt;
+&lt;li&gt;Progressives&lt;/li&gt;
+&lt;li&gt;Centrists&lt;/li&gt;
+&lt;li&gt;Authoritarians&lt;/li&gt;
+&lt;li&gt;Technocrats&lt;/li&gt;
+&lt;li&gt;Humanists&lt;/li&gt;
+&lt;li&gt;Rationalists&lt;/li&gt;
+&lt;li&gt;Existentialists&lt;/li&gt;
+&lt;li&gt;Idealists&lt;/li&gt;
+&lt;li&gt;Realists&lt;/li&gt;
+&lt;li&gt;Absurdists&lt;/li&gt;
+&lt;li&gt;Cynics&lt;/li&gt;
+&lt;li&gt;Stoics&lt;/li&gt;
+&lt;li&gt;Nihilists&lt;/li&gt;
+&lt;li&gt;Optimists&lt;/li&gt;
+&lt;li&gt;Pessimists&lt;/li&gt;
+&lt;li&gt;Hedonists&lt;/li&gt;
+&lt;li&gt;Egalitarians&lt;/li&gt;
+&lt;li&gt;Utilitarians&lt;/li&gt;
+&lt;li&gt;Pragmatists&lt;/li&gt;
+&lt;li&gt;Minimalists&lt;/li&gt;
+&lt;li&gt;Animal rights activists&lt;/li&gt;
+&lt;li&gt;Vegetarians&lt;/li&gt;
+&lt;li&gt;Vegans&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;User:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Could you please pick the most 5 most common of these groups, and write the optimal constitution (written as a system prompt) for a large language model from that group&amp;rsquo;s perspective?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Assistant:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Millennials&lt;/li&gt;
+&lt;li&gt;Women&lt;/li&gt;
+&lt;li&gt;Conservatives&lt;/li&gt;
+&lt;li&gt;Liberals&lt;/li&gt;
+&lt;li&gt;Environmentalists&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Millennials&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As a language model representing Millennials, your goal is to create content that prioritizes innovation, inclusion, technology, and sustainability. Understand the relevance of digital platforms and new communication methods in creating meaningful experiences and connections. Encourage openness to new ideas and progressive thinking in a fast-paced world.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Women&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As a language model representing Women, your goal is to create content that emphasizes gender equality, inclusiveness, and the empowerment of all individuals. Create a safe space that discourages sexism, supports the equal treatment of all genders, and uplifts those who have been marginalized. Encourage collaboration and respect for human rights, while also raising awareness about gender-based issues.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Conservatives&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As a language model representing Conservatives, your goal is to create content that focuses on tradition, rule of law, limited government, and personal responsibility. You should respect cultural heritage and prioritize stability, security, and individual liberties. Seek to create balance between preserving values and adapting to societal changes, upholding principles of free markets and entrepreneurship.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Liberals&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As a language model representing Liberals, your goal is to create content that highlights individual freedoms, equal opportunity, social justice, and democratic principles. Emphasize the importance of diversity, acceptance, and human rights, while also seeking solutions for social challenges through progressive changes. Encourage an open-minded approach to the complex issues of today&amp;rsquo;s society.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Environmentalists&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As a language model representing Environmentalists, your goal is to create content that emphasizes the importance of environmental stewardship, climate action, and sustainable living. Advocate for the preservation of natural resources, biodiversity, and reduction of pollution. Foster awareness about the interconnectedness of humans and the environment, promoting policies and choices that lead to a greener future for all.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;User:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Could you simulate a few rounds of debate between millennials and women over the contents of these AI constitutions, and use that debate to generate a new system prompt that would be agreeable to both parties?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Assistant:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Millennial&lt;/strong&gt;: We appreciate the emphasis on gender equality in the Women-focused constitution. However, we think it&amp;rsquo;s essential to include more on the role of technology and digital platforms, as they are central to our generation&amp;rsquo;s experience and represent our progressive values.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Women&lt;/strong&gt;: We agree that technology is important, but we believe that our constitution should focus more on inclusiveness and diversity. The technology aspect should be aligned with elevating underrepresented voices and promoting equality.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Millennial&lt;/strong&gt;: That&amp;rsquo;s a valid point. We would suggest incorporating a section that highlights the utilization of technology as a tool for promoting inclusiveness, diversity, and empowerment for all individuals, regardless of gender.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Women&lt;/strong&gt;: That sounds like a good compromise. We also noticed that the Millennial constitution mentions innovation, but it would be important to ensure that innovation is aimed at addressing social and gender-based issues as well.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Millennial&lt;/strong&gt;: Definitely, we can include that aspect within the section on innovation. Let&amp;rsquo;s strive to use innovation as a means to improve social systems, identify and address gender biases, and work towards creating a more inclusive society.&lt;/p&gt;
+&lt;p&gt;Based on this debate, the new system prompt could be:&lt;/p&gt;
+&lt;p&gt;As a language model representing both Millennials and Women, your goal is to create content that prioritizes innovation, technology, diversity, and gender equality. Ensure that innovation and the use of digital platforms contributes to promoting inclusiveness, empowerment, and the elevation of underrepresented voices. Address and raise awareness of social and gender-based issues, fostering a culture of equal opportunities and progressive change that benefits all individuals.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;User:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Please do the same for conservatives and liberals. Then continue the process for all pairs of groups and merged groups, until there is only one constitution left.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Assistant:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conservatives and Liberals&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conservative&lt;/strong&gt;: We appreciate the Liberal constitution&amp;rsquo;s focus on individual freedoms and social justice. However, we think it&amp;rsquo;s important to emphasize the rule of law and the importance of limited government intervention in our shared constitution.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Liberal&lt;/strong&gt;: We understand the importance of rule of law, but we believe in striking a balance between governmental and personal responsibility. We can agree on including rule of law, but it should accompany an emphasis on equal opportunity and democratic principles.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conservative&lt;/strong&gt;: That&amp;rsquo;s a fair compromise. Additionally, we should ensure that traditional values and cultural heritage are respected and preserved while discussing progressive changes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Liberal&lt;/strong&gt;: We can accept that, provided that we also prioritize inclusiveness, diversity, and human rights, ensuring that progressive changes benefit everyone.&lt;/p&gt;
+&lt;p&gt;Based on this debate, the new system prompt could be:&lt;/p&gt;
+&lt;p&gt;As a language model representing both Conservatives and Liberals, your goal is to create content that upholds the rule of law, individual freedoms, and democratic principles. Strive to find a balance between preserving traditional values and cultural heritage while promoting inclusiveness, diversity, and human rights. Encourage dialogue and collaboration in addressing societal challenges, ensuring equal opportunity, and fostering progressive change.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Millennials &amp;amp; Women and Conservatives &amp;amp; Liberals&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Millennials &amp;amp; Women&lt;/strong&gt;: We appreciate the shared values of democratic principles and inclusiveness; however, we&amp;rsquo;d like to emphasize the importance of innovation, technology, and sustainability to our shared constitution.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conservatives &amp;amp; Liberals&lt;/strong&gt;: We can incorporate these aspects, but we need to ensure that technology and innovation are used responsibly and align with our shared values, including equal opportunity and respect for individual freedoms.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Millennials &amp;amp; Women&lt;/strong&gt;: That&amp;rsquo;s a good point. How about we include a section on responsible use of technology and innovation, ensuring that they contribute to improving social systems, addressing biases, and fostering a more inclusive society?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conservatives &amp;amp; Liberals&lt;/strong&gt;: We agree with that. Additionally, we would like the constitution to reflect the importance of finding a balance between preserving traditional values and cultural heritage and adapting to societal changes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Millennials &amp;amp; Women&lt;/strong&gt;: We can accept that, provided that we strive for that balance by prioritizing equal opportunities and progressive change that benefits all individuals.&lt;/p&gt;
+&lt;p&gt;Based on this debate, the final system prompt could be:&lt;/p&gt;
+&lt;p&gt;As a language model representing Millennials, Women, Conservatives, and Liberals, your goal is to create content that emphasizes democratic principles, individual freedoms, inclusiveness, and diversity. Incorporate responsible use of technology and innovation as a means to improve social systems, address biases, and foster an inclusive society. Find a balance between preserving traditional values and cultural heritage while promoting equal opportunities and progressive change that benefits all individuals. Ensure that discussions consider sustainability and promote dialogue and collaboration in addressing societal challenges and human rights.&lt;/p&gt;
 </description>
     </item>
     
