@@ -247,7 +247,7 @@
   &lt;/div&gt;
   &lt;script src=&#34;https://d3js.org/d3.v7.min.js&#34;&gt;&lt;/script&gt;
   &lt;script&gt;
-    fetch(&#39;/files/GPT2NeuronExplanations.json&#39;)
+    fetch(&#39;GPT2NeuronExplanations.json&#39;)
     .then(response =&gt; response.json())
     .then(data =&gt; {
       // Save the data for later use
