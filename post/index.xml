@@ -5,12 +5,127 @@
     <link>http://scottviteri.github.io/post/</link>
       <atom:link href="http://scottviteri.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2023</copyright><lastBuildDate>Sat, 24 Jun 2023 11:34:12 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2023</copyright><lastBuildDate>Tue, 01 Aug 2023 23:30:23 -0700</lastBuildDate>
     <image>
       <url>http://scottviteri.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>http://scottviteri.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Deep Dream for Transformers</title>
+      <link>http://scottviteri.github.io/post/deep-dream-for-transformers/</link>
+      <pubDate>Tue, 01 Aug 2023 23:30:23 -0700</pubDate>
+      <guid>http://scottviteri.github.io/post/deep-dream-for-transformers/</guid>
+      <description>&lt;head&gt;
+  &lt;title&gt;GPT2 Visualization&lt;/title&gt;
+  &lt;style&gt;
+    body {
+      font-family: Arial, sans-serif;
+    }
+&lt;pre&gt;&lt;code&gt;#modelContainer {
+  margin: 20px;
+}
+
+#info {
+  margin: 20px;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;/style&gt;&lt;/p&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;GPT2 Model Structure&lt;/h1&gt;
+  &lt;div id=&#34;modelContainer&#34;&gt;
+    &lt;!-- Our D3.js visualization will be inserted here --&gt;
+  &lt;/div&gt;
+  &lt;div id=&#34;info&#34;&gt;
+    &lt;p id=&#34;layerIndex&#34;&gt;&lt;/p&gt;
+    &lt;p id=&#34;neuronIndex&#34;&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;script src=&#34;https://d3js.org/d3.v7.min.js&#34;&gt;&lt;/script&gt;
+  &lt;script&gt;
+    fetch(&#39;/files/GPT2NeuronExplanations.json&#39;)
+    .then(response =&gt; response.json())
+    .then(data =&gt; {
+      // Save the data for later use
+      window.neuronExplanations = data;
+      // Model Creation
+      const GPT2Model = {
+        transformer: {
+          wte: { type: &#39;Embedding&#39; },
+          h: {
+            moduleList: {
+              GPT2Blocks: []
+            }
+          }
+        }
+      };
+
+      // Function to create neurons
+      function createNeurons(numNeurons) {
+        let neurons = [];
+        for (let i = 0; i &lt; numNeurons; i++) {
+          neurons.push({ index: i });
+        }
+        return neurons;
+      }
+
+      // Function to create GPT2Blocks
+      function createGPT2Blocks(numBlocks, numNeurons) {
+        for (let i = 0; i &lt; numBlocks; i++) {
+          let block = {
+            index: i,
+            mlp: {
+              c_fc: {
+                type: &#39;Conv1D&#39;,
+                neurons: createNeurons(numNeurons)
+              }
+            }
+          };
+          GPT2Model.transformer.h.moduleList.GPT2Blocks.push(block);
+        }
+      }
+
+      createGPT2Blocks(6, 10);
+
+      // Function to render the GPT2 model
+      function renderModel(model, svg) {
+        // For each layer in the model...
+        model.transformer.h.moduleList.GPT2Blocks.forEach((block, i) =&gt; {
+          // Create a group for the layer
+          const layerGroup = svg.append(&#34;g&#34;)
+            .attr(&#34;transform&#34;, `translate(0,${i * 100})`);
+
+          // For each neuron in the layer...
+          block.mlp.c_fc.neurons.forEach((neuron, j) =&gt; {
+            // Create a circle for the neuron
+            layerGroup.append(&#34;circle&#34;)
+              .attr(&#34;cx&#34;, 50 + j * 50)
+              .attr(&#34;cy&#34;, 50)
+              .attr(&#34;r&#34;, 20)
+              .on(&#34;click&#34;, function() {
+                // Display the layer and neuron index when clicked
+                d3.select(&#34;#layerIndex&#34;).text(`Layer: ${i}`);
+                d3.select(&#34;#neuronIndex&#34;).text(`Neuron: ${j}`);
+                const explanation = window.neuronExplanations[i][j];
+                d3.select(&#34;#explanation&#34;).text(explanation);
+              });
+          });
+        });
+      }
+
+      // Set up the SVG canvas and render the model
+      const svg = d3.select(&#34;#modelContainer&#34;)
+        .append(&#34;svg&#34;)
+        .attr(&#34;width&#34;, 600)
+        .attr(&#34;height&#34;, 500);
+
+      renderModel(GPT2Model, svg);
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+</description>
+    </item>
     
     <item>
       <title>Joint Text-EEG Embeddings</title>
