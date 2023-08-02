@@ -122,9 +122,8 @@
 
               // Look up the explanation for this neuron
               const explanation = window.neuronExplanations[i][j];
-
               // Display the explanation
-              d3.select(&#34;#explanation&#34;).text(explanation);
+              d3.select(&#34;#explanation&#34;).html(`Without Autoencoder: &lt;br&gt;${explanation[0]}&lt;br&gt;&lt;br&gt;With Autoencoder:&lt;br&gt; ${explanation[1]}`);
             });
         });
       });
