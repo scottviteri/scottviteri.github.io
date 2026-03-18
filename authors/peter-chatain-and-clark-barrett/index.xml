@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Peter Chatain and Clark Barrett | Scott Viteri</title><link>https://scottviteri.github.io/authors/peter-chatain-and-clark-barrett/</link><atom:link href="https://scottviteri.github.io/authors/peter-chatain-and-clark-barrett/index.xml" rel="self" type="application/rss+xml"/><description>Peter Chatain and Clark Barrett</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2026</copyright><lastBuildDate>Sun, 01 Mar 2026 00:00:00 -0800</lastBuildDate><image><url>https://scottviteri.github.io/images/icon_hu_10c2cab00f70a654.png</url><title>Peter Chatain and Clark Barrett</title><link>https://scottviteri.github.io/authors/peter-chatain-and-clark-barrett/</link></image><item><title>Markovian Transformers for Informative Language Modeling</title><link>https://scottviteri.github.io/publication/markoviantraining/</link><pubDate>Sun, 01 Mar 2026 00:00:00 -0800</pubDate><guid>https://scottviteri.github.io/publication/markoviantraining/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Peter Chatain and Clark Barrett | Scott Viteri</title>
+    <link>https://scottviteri.github.io/authors/peter-chatain-and-clark-barrett/</link>
+      <atom:link href="https://scottviteri.github.io/authors/peter-chatain-and-clark-barrett/index.xml" rel="self" type="application/rss+xml" />
+    <description>Peter Chatain and Clark Barrett</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2026</copyright><lastBuildDate>Sun, 01 Mar 2026 00:00:00 -0800</lastBuildDate>
+    <image>
+      <url>https://scottviteri.github.io/images/icon_hu_10c2cab00f70a654.png</url>
+      <title>Peter Chatain and Clark Barrett</title>
+      <link>https://scottviteri.github.io/authors/peter-chatain-and-clark-barrett/</link>
+    </image>
+    
+    <item>
+      <title>Markovian Transformers for Informative Language Modeling</title>
+      <link>https://scottviteri.github.io/publication/markoviantraining/</link>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 -0800</pubDate>
+      <guid>https://scottviteri.github.io/publication/markoviantraining/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

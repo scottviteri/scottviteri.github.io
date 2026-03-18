@@ -1,1 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Publication_types | Scott Viteri</title><link>https://scottviteri.github.io/publication_types/</link><atom:link href="https://scottviteri.github.io/publication_types/index.xml" rel="self" type="application/rss+xml"/><description>Publication_types</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2026</copyright><lastBuildDate>Sun, 01 Mar 2026 00:00:00 -0800</lastBuildDate><image><url>https://scottviteri.github.io/images/icon_hu_10c2cab00f70a654.png</url><title>Publication_types</title><link>https://scottviteri.github.io/publication_types/</link></image></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publication_types | Scott Viteri</title>
+    <link>https://scottviteri.github.io/publication_types/</link>
+      <atom:link href="https://scottviteri.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publication_types</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2026</copyright><lastBuildDate>Sun, 01 Mar 2026 00:00:00 -0800</lastBuildDate>
+    <image>
+      <url>https://scottviteri.github.io/images/icon_hu_10c2cab00f70a654.png</url>
+      <title>Publication_types</title>
+      <link>https://scottviteri.github.io/publication_types/</link>
+    </image>
+    
+  </channel>
+</rss>
