@@ -1,16 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Scott Viteri</title>
-    <link>http://scottviteri.github.io/authors/admin/</link>
-      <atom:link href="http://scottviteri.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
-    <description>Scott Viteri</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2024</copyright>
-    <image>
-      <url>http://scottviteri.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
-      <title>Scott Viteri</title>
-      <link>http://scottviteri.github.io/authors/admin/</link>
-    </image>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Scott Viteri</title><link>https://scottviteri.github.io/authors/admin/</link><atom:link href="https://scottviteri.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml"/><description>Scott Viteri</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2026</copyright><image><url>https://scottviteri.github.io/images/icon_hu_10c2cab00f70a654.png</url><title>Scott Viteri</title><link>https://scottviteri.github.io/authors/admin/</link></image><item><title/><link>https://scottviteri.github.io/authors/admin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scottviteri.github.io/authors/admin/</guid><description>&lt;p&gt;I am a CS PhD candidate at the
+&lt;a href="https://aisafety.stanford.edu" target="_blank" rel="noopener"&gt;Center for AI Safety&lt;/a&gt; at Stanford University, under the guidance of Prof.
+&lt;a href="https://theory.stanford.edu/~barrett" target="_blank" rel="noopener"&gt;Clark Barrett&lt;/a&gt;. I am interested in training AIs to be human-like both in terms of the concepts they contain, as well as the values they hold. I think the key to this lies in training the language model to produce its own memory during training and to influence its future training data. In this vein, I have been optimizing pre-trained models to produce Chain-of-Thought reasoning which is &lt;em&gt;informative&lt;/em&gt; to itself and to humans. In the future, I am interested in using a similar blend of unsupervised learning and reinforcement learning towards active learning, in the hopes that this sets the preconditions to raise the AI like a child, and have that result in something child-like.&lt;/p&gt;
+&lt;p&gt;During my PhD, my focus has evolved from formal verification and programming languages to AI alignment. Prior to this, I majored in computer science and electrical engineering at MIT, contributing to AI and robotics research. After MIT, I explored interactive theorem proving at CMU with Simon Dedeo, publishing research on
+&lt;a href="https://doi.org/10.1016/j.cognition.2022.105120" target="_blank" rel="noopener"&gt;abduction in mathematics&lt;/a&gt; in the &lt;em&gt;Cognition&lt;/em&gt; journal.&lt;/p&gt;
+&lt;p&gt;My primary character trait is curiosity, and I really love math.&lt;/p&gt;</description></item></channel></rss>
