@@ -5,7 +5,7 @@
     <link>https://scottviteri.github.io/</link>
       <atom:link href="https://scottviteri.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Scott Viteri</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2026</copyright><lastBuildDate>Sun, 01 Mar 2026 00:00:00 -0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2026</copyright><lastBuildDate>Thu, 01 Oct 2026 17:52:41 +0000</lastBuildDate>
     <image>
       <url>https://scottviteri.github.io/images/icon_hu_10c2cab00f70a654.png</url>
       <title>Scott Viteri</title>
@@ -406,6 +406,14 @@
 &lt;a href=&#34;https://explorecourses.stanford.edu/search?view=catalog&amp;amp;filter-coursestatus-Active=on&amp;amp;page=0&amp;amp;catalog=&amp;amp;academicYear=&amp;amp;q=STS&amp;#43;10SI%3A&amp;#43;Introduction&amp;#43;to&amp;#43;AI&amp;#43;Alignment&amp;amp;collapse=&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;course page&lt;/a&gt; and the 
 &lt;a href=&#34;https://docs.google.com/document/d/1NX0DlZRzD3NP7tBeLjMh76w7-w2s8SxV3wj0P7EYpKY/edit#&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;syllabus&lt;/a&gt;.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>When Do Intrinsic Rewards Lead to Exploration?</title>
+      <link>https://scottviteri.github.io/publication/exploration/</link>
+      <pubDate>Thu, 01 Oct 2026 17:52:41 +0000</pubDate>
+      <guid>https://scottviteri.github.io/publication/exploration/</guid>
+      <description></description>
     </item>
     
     <item>

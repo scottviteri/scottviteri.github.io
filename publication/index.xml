@@ -5,12 +5,20 @@
     <link>https://scottviteri.github.io/publication/</link>
       <atom:link href="https://scottviteri.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2026</copyright><lastBuildDate>Sun, 01 Mar 2026 00:00:00 -0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2026</copyright><lastBuildDate>Thu, 01 Oct 2026 17:52:41 +0000</lastBuildDate>
     <image>
       <url>https://scottviteri.github.io/images/icon_hu_10c2cab00f70a654.png</url>
       <title>Publications</title>
       <link>https://scottviteri.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>When Do Intrinsic Rewards Lead to Exploration?</title>
+      <link>https://scottviteri.github.io/publication/exploration/</link>
+      <pubDate>Thu, 01 Oct 2026 17:52:41 +0000</pubDate>
+      <guid>https://scottviteri.github.io/publication/exploration/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Markovian Transformers for Informative Language Modeling</title>
